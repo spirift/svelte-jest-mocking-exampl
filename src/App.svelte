@@ -1,33 +1,13 @@
 <script>
-  import Select from "svelte-select";
+  // In order to get jest to play nice with svelte-select we need to import from the component path
+  // We also need to include svelte-select in the transform in `transformIgnorePatterns` inside jest.config.js
+  import Select from "svelte-select/src/Select.svelte";
 
-  const items = [];
+  const items = ["thing"];
   const selectedValue = null;
 </script>
 
-<style>
-  main {
-    text-align: center;
-    padding: 1em;
-    max-width: 240px;
-    margin: 0 auto;
-  }
-
-  h1 {
-    color: #ff3e00;
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
-  }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
-  }
-</style>
-
-<main>
-  <h1>Hello!</h1>
+<div>
+  <h1>Hello</h1>
   <Select {items} {selectedValue} />
-</main>
+</div>

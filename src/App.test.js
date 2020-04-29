@@ -6,7 +6,7 @@ jest.mock('svelte-select', () => ({
   default: MockSvelteSelect,
 }))
 
-test('it can render', () => {
+test('it works', () => {
   const { getByText } = render(App)
   expect(getByText('Hello')).toBeTruthy()
 })
