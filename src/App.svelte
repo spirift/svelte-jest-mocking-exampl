@@ -1,7 +1,7 @@
 <script>
-  // In order to get jest to play nice with svelte-select we need to import from the component path
-  // We also need to include svelte-select in the transform in `transformIgnorePatterns` inside jest.config.js
-  import Select from "svelte-select/src/Select.svelte";
+  import Select from "svelte-select";
+  // const Select = require("svelte-select").default;
+  console.log(`Select: `, Select);
 
   const items = ["thing"];
   const selectedValue = null;

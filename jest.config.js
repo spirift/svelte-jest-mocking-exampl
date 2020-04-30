@@ -8,4 +8,5 @@ module.exports = {
     '^.+\\.js$': 'babel-jest',
     '^.+\\.svelte$': ['svelte-jester', { preprocess: false }],
   },
+  resolver: 'jest-svelte-resolver',
 }

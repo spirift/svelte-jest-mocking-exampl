@@ -2852,6 +2852,11 @@ jest-snapshot@^25.4.0:
     pretty-format "^25.4.0"
     semver "^6.3.0"
 
+jest-svelte-resolver@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/jest-svelte-resolver/-/jest-svelte-resolver-1.0.0.tgz#d9e8a4a43f9c00ece91de0ef5e27e7417cd6b119"
+  integrity sha512-f3UEluHzztKyt2FIsa8gBFpKtCgVqnIOd/CmD7b59FRKXU9OzSmzNTiKB72fS7S/fV3lxYFHmza8JZbZ/5mxDg==
+
 jest-util@^25.4.0:
   version "25.4.0"
   resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-25.4.0.tgz#6a093d09d86d2b41ef583e5fe7dd3976346e1acd"
